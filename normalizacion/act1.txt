@@ -6,8 +6,11 @@ campo telefono
 d)Alumno(ID_ALUMNO,nombre)
 Alumno_TLF(id_alumno,TELEFONO) //id_alumno-->Alumno()
 2º
-a)cumple la 1FN
-b)id_empleado, cod_dep
-c)incumple la 2FN
+a)cumple la 2FN
+b)cod_dep
+c)incumple la 3FN-->transitividad
 d)Empleado(ID_EMPLEADO,nombre,cod_dep)
 Departamento(COD_DEP,nombre_dep,sede)
+3º
+a)cumple la 1FN
+b)id_incidencia,cod_cliente,cod_tecnico
